@@ -6,7 +6,7 @@ public class MysqlUtil {
 	public  Connection getConnect() {
 		String url1 = "jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false";
 		String user = "root";
-		String password = "smile789";
+		String password = "123456";
 		Connection conn = null;
 		
         try {
